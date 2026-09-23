@@ -1,5 +1,5 @@
-asgiref==3.12.1
-Django==5.2.17
+asgiref==3.11.1
+Django==4.2.30
 django-environ==0.14.0
 PyMySQL==1.2.3
-sqlparse==0.6.0
+sqlparse==0.5.5

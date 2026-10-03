@@ -1,0 +1,13 @@
+# HW9 — Менеджер задач: __str__, Meta и настройка админки
+
+Модели приложения `tasks`: **Category**, **Task**, **SubTask** — зарегистрированы в админке.
+
+```bash
+pip install -r requirements.txt
+cp .env.example .env        # и впишите свой SECRET_KEY
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+```
+
+Админка: http://127.0.0.1:8000/admin/
